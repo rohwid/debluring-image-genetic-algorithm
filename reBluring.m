@@ -19,13 +19,13 @@ imshow(imgBlur);
 
 % convert imgBlur to kromosom
 imgData = double(imgBlur);
-winSize=3;
+winSize = 3;
 chrom = 1;
 gen = 9;
 genMean = ceil(gen/2);
 
 % init population
-totalPop = 60;
+totalPop = 30;
 
 % init image matrix result
 [x,y] = size(imgData);
@@ -50,7 +50,7 @@ for row = 1:x-2
 
         epoc = 0;
         
-        while epoc < 300
+        while epoc < 150
             % fitness function
             fitVal = fitFunc(gen,chromMean,totalPop,pop);
 
