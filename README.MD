@@ -1,4 +1,4 @@
-# Reblur Image with Genetic Algorithm
+# Deblurring Image with Genetic Algorithm
 
 The main purpose of this program is to create new blur image from a blurred image, it generated with genetic algorithm. This program contain:
 
